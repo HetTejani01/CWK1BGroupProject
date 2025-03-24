@@ -295,8 +295,14 @@ private Fleet fleet = new Fleet();              // Fleet to manage ships
   fleet.addToReserve(new ManOWar("Victory", "Alan Aikin", 3, 500, 3, 30));
         fleet.addToReserve(new Frigate("Sophie", "Ben Baggins", 8, 160, 16, true));
         fleet.addToReserve(new Sloop("Arrow", "Dan Dare", 5, 150, true));
-        fleet.addToReserve(new ManOWar("Endeavour", "Col Cannon", 4, 150, true));
-    }
+        fleet.addToReserve(new ManOWar("Endeavour", "Col Cannon", 4, 300, 2, 20));
+        fleet.addToReserve(new ManOWar("Belerophon", "Ed Evans", 8, 500, 3, 50));
+        fleet.addToReserve(new Frigate("Surprise", "Fred Fox", 6, 100, 10, false));
+        fleet.addToReserve(new Frigate("Jupitor", "Gil Gamage", 7, 200, 20, false));
+        fleet.addToReserve(new Sloop("Paris", "Hal Henry", 5, 200, true));
+        fleet.addToReserve(new Sloop("Beast", "Lan Idle", 5, 400, false));
+        fleet.addToReserve(new Sloop("Athena", "John Jones", 2, 100, true));
+   }
     
      
     private void setupEncounters()
@@ -304,6 +310,13 @@ private Fleet fleet = new Fleet();              // Fleet to manage ships
    encounters.put(1, new Encounter(1, EncounterType.BATTLE, "Trafalgar", 3, 300));
         encounters.put(2, new Encounter(2, EncounterType.SKIRMISH, "Belle Isle", 3, 120));
         encounters.put(3, new Encounter(3, EncounterType.BLOCKADE, "Brest", 3, 150));
+        encounters.put(4, new Encounter(4, EncounterType.BATTLE, "St Malo", 9, 200));
+        encounters.put(5, new Encounter(5, EncounterType.BLOCKADE, "Dieppe", 7, 90));
+        encounters.put(6, new Encounter(6, EncounterType.SKIRMISH, "Jersey", 8, 45));
+        encounters.put(7, new Encounter(7, EncounterType.BLOCKADE, "Nantes", 6, 130));
+        encounters.put(8, new Encounter(8, EncounterType.BATTLE, "Finisterre", 4, 100));
+        encounters.put(9, new Encounter(9, EncounterType.SKIRMISH, "Biscay", 5, 200));
+        encounters.put(10, new Encounter(10, EncounterType.BATTLE, "Cadiz", 1, 250));
     }
         
     // Useful private methods to "get" objects from collections/maps
