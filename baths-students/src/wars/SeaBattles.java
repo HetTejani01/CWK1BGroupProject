@@ -295,6 +295,7 @@ private Fleet fleet = new Fleet();              // Fleet to manage ships
   fleet.addToReserve(new ManOWar("Victory", "Alan Aikin", 3, 500, 3, 30));
         fleet.addToReserve(new Frigate("Sophie", "Ben Baggins", 8, 160, 16, true));
         fleet.addToReserve(new Sloop("Arrow", "Dan Dare", 5, 150, true));
+        fleet.addToReserve(new Sloop("Arrow", "Dan Dare", 5, 150, true));
     }
     
      
