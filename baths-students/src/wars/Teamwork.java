@@ -10,7 +10,7 @@ package wars;
 public class Teamwork
 {
     private String[] details = new String[12];
-    
+       
     public Teamwork()
     {   // in each line replace the contents of the String 
         // with the details of your team member
