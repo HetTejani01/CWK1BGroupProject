@@ -24,6 +24,7 @@ public class GameGUI
     private JButton quitBtn = new JButton("Quit");
     private JPanel eastPanel = new JPanel();
 
+
     
     public GameGUI()
     {
