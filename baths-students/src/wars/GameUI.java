@@ -13,6 +13,8 @@ public class GameUI
     private BATHS myBattles ;
     private Scanner myIn = new Scanner(System.in);
 
+
+
     public void doMain()
     {
         int choice;
